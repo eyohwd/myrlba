@@ -1,0 +1,150 @@
+nav{
+    width: 100%;
+    
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+  
+}
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.logo{
+    width: 110px;
+    height: 80px;
+    border-radius: 10px;
+    
+}
+.mode{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.mode, .icon{
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.iconBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userIcon{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: goldenrod;
+}
+.logButton{
+  padding: 4px 0px;
+  background: #060e50;
+  margin-right: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 8px;
+    font-size: 16px;
+    
+    
+    
+}
+
+.dark-nav{
+    background: #212EA0;
+    transition: all ease 0.5s;
+}
+.logoText{
+  font-size: 13px;
+}
+.menu-icon{
+    display: none;
+}
+
+/* ------- media query ------ */
+
+@media (max-width: 1200px){
+  nav ul li{
+    margin: 10px 7px;
+  }
+  .logoText{
+    font-size: 14px;
+  }
+ 
+}
+
+@media (max-width: 972px){
+    
+    
+    nav{
+        padding: 10px 0;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #212EA0;
+        z-index: -1;
+        width: 160px;
+    
+    
+        padding-top: 70px;
+        transition: 0.5s;
+        bottom: 0;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 7px;
+    }
+
+    .btn{
+        padding: 5px 5px;
+      }
+
+      .menu-icon{
+        display: block;
+    }
+    .hide-mobile-menu{
+        right: -200px;
+    }
+}
+
+@media (max-width: 450px){
+  .logoText{
+    font-size: 10px;
+  }
+
+  .btn .navbtn{
+    padding: 5px 5px;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px 20px;
+}
+
+nav ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #212EA0;
+    z-index: -1;
+    width: 200px;
+
+    padding-top: 70px;
+    transition: 0.5s;
+    bottom: 0;
+}
+}

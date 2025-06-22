@@ -1,0 +1,57 @@
+.titleHead{
+    text-align: center;
+    color:  rgb(41, 41, 41);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px ;
+    padding-top: 140px;
+    
+    
+    
+}
+
+.titleHead h2{
+    font-size: 27px;
+    color:  #022074;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+
+.titleHead p{
+    font-size: 18px;
+    max-width: 70%;
+    margin: auto;
+    text-transform: none;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+
+    
+}
+
+
+
+/* ------- media query ------ */
+
+@media (max-width: 650px){
+
+    .titleHead{
+        padding-top: 120px; 
+        margin: 1px;
+    }
+  .titleHead h2{
+        font-size: 22px ;
+        
+    }
+
+    .titleHead p{
+        font-size: 16px;
+       
+    }
+
+    
+
+
+
+
+}

@@ -1,0 +1,96 @@
+.extracurriculum{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.about-left{
+    flex-basis: 40%;
+    position: relative;
+}
+
+.about-right{
+    flex-basis: 56%;
+}
+
+.extracurriculum img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.extracurriculum .play{
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background: white;
+}
+
+.extracurriculum h3{
+    font-weight: 600;
+    font-size: 20px;
+    color:  #212EA0;
+}
+
+.extracurriculum h2{
+     margin: 10px 0;
+     max-width: 400px;
+    font-size: 35px;
+    color:  #030d68;
+}
+
+.extracurriculum p{
+    color: rgb(41, 41, 41);
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+/* ------- media query ------ */
+
+@media (max-width: 800px){
+   .extracurriculum{
+    flex-direction: column;
+   }
+   .about-left{
+    flex-basis: 100%;
+    margin: 20px;
+    order: 2;
+   }
+   .about-right{
+    flex-basis: 100%
+   }
+
+   .extracurriculum .play{
+    width: 30px;
+    height: 30px;
+    top: 80%;
+   }
+}
+
+/* ------- media query ------ */
+
+@media (max-width: 600px){
+    .extracurriculum h3{
+        
+        text-align: center;
+     }
+    .extracurriculum h2{
+       font-size: 25px;
+       text-align: center;
+    }
+    .about-right p{
+        margin: 0 15px;
+    }
+    .extracurriculum .play{
+        width: 50px;
+        height: 40px;
+    }
+}

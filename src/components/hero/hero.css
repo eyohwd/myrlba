@@ -1,0 +1,91 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.4), rgba(8,0,58,0.4)), url('../../assets/hero2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero button{
+    margin-right: 20px;
+}
+
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+    margin-top: 160px;
+   
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 150px;
+    
+}
+.academy{
+    color:  rgb(25, 28, 183);
+}
+
+.academy1{
+    color: white;
+    background-color: orangered;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.academy2{
+    color: white;
+    background-color: rgb(2, 2, 152);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.academy3{
+    color: white;
+    background-color: goldenrod;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+/* ------- media query ------ */
+
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+    .academy1, .academy2, .academy3{
+        font-size: 12px;
+    }
+     .hero-text{
+        margin-top: 250px;
+     }
+    
+    .hero-text h1{
+        font-size: 30px;
+    }
+}

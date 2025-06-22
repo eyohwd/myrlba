@@ -1,0 +1,32 @@
+.adminHomenTwoFirst{
+    padding-top: 138px;
+   display: flex;
+}
+
+.adminHomenTwoFirstContainer{
+     flex: 6;
+}
+
+.teacherButton{
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    background: rgb(4, 52, 80);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    &:hover{
+        background: rgb(6, 108, 142);
+    }
+}
+
+@media (max-width:600px){
+   .adminHomenTwoFirst{
+     padding-top: 115px;
+   }
+}

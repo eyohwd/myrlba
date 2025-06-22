@@ -1,0 +1,86 @@
+.sidebarNurseryOne{
+    flex: 1;
+    border-right: 1px solid lightgray;
+    height: 100vh;
+    background: white;
+}
+
+.top{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(18, 18, 94);
+}
+hr{
+    height: 0px ;
+    color: lightgray;
+}
+
+.top .profileIcon{
+    font-size: 90px;
+   color: white;
+
+}
+.top h3{
+    color: white;
+    word-spacing: 5px;
+}
+
+.sidebarNurseryOne ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarNurseryOne ul li{
+    padding-right: 10px;
+    padding: 10px;
+   border-bottom: 1px solid lightgray;
+
+   
+
+   }
+
+   .sidebarNurseryOne ul li:hover {
+    
+
+   
+    background-color: #e5abe2;
+    color: white;
+   
+
+   }
+
+ 
+
+/* -----media query------ */
+
+@media (max-width: 600px){
+    .sidebarNurseryOne{
+        max-width: 100px;
+    }
+    .top .profileIcon{
+        font-size: 40px;
+    }
+    .top{
+        height: 90px;
+        padding-top: 20px;
+    }
+
+    .top h3{
+        color: white;
+        word-spacing: 0px;
+        font-size: 12px;
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 1000px){
+    .sidebarNurseryOne{
+       margin-top: -12px;
+    }
+    
+ }
+

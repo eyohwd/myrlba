@@ -1,0 +1,14 @@
+.adminHome{
+    padding-top: 138px;
+   display: flex;
+}
+
+.adminHomeContainer{
+     flex: 6;
+}
+
+@media (max-width:600px){
+   .adminHome{
+     padding-top: 115px;
+   }
+}

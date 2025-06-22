@@ -1,0 +1,125 @@
+.register{
+    width: 100%;
+    padding: 200px 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.registerWrapper{
+      height: 60vh;
+      width: 60%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+     
+    
+    
+}
+
+
+
+.registerImgConatiner{
+    width:40% ;
+    
+    
+}
+
+.registerFormContainer{
+    
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0px 20px;
+    box-shadow: 11px 10px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 11px 10px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+.registerFormContainer h2{
+    margin-bottom: 20px;
+    
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    
+    
+}
+
+.register form input{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+
+
+}
+
+.registerImg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ------- media query ------ */
+
+@media (max-width: 450px){
+
+    .register{
+    
+        
+        padding-top: 130px;
+    }
+    .registerWrapper{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    
+        
+
+        
+    }
+
+    .registerFormContainer{
+        padding: 10px 20px;
+        
+    }
+
+    .register form input{
+        padding: 8px;
+    }
+
+    
+}
+
+/* ------- media query ------ */
+  @media (max-width: 920px){
+
+    .registerWrapper{
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 85%;
+
+        
+    }
+
+    .registerFormContainer{
+        padding: 10px 20px;
+        height: 100%;
+    }
+    
+
+  }

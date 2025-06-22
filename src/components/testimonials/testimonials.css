@@ -1,0 +1,190 @@
+.testimonials{
+    
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    
+
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #212ea0c5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow.back{
+    right: auto;
+    left: 0;
+}
+
+.icon-arrow{
+    color: white;
+    
+}
+
+.slider{
+   overflow: hidden; 
+}
+
+.slider ul{
+   display: flex;
+   width: 200%;
+   overflow-x: hidden;
+   transition: all ease 0.5s;
+   
+}
+
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+
+.slide{
+    box-shadow: 9px 13px 9px 4px rgba(0,0,0,0.36);
+-webkit-box-shadow: 9px 13px 9px 4px rgba(0,0,0,0.36);
+-moz-box-shadow: 9px 13px 9px 4px rgba(0,0,0,0.36);
+   padding: 20px;
+    border-radius: 10px;
+    color: rgb(41, 41, 41);
+    line-height: 1.4;
+    background-color: white;
+    
+}
+
+.slide img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+    
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-info h3{
+    color:#212EA0;
+    text-align: center;
+}
+.slide p{
+    text-align: center;
+}
+.user-info span{
+    color: rgb(207, 208, 143);
+}
+/* ------- media query ------ */
+
+@media(max-width: 800px){
+    .testimonials{
+       padding: 0 40px;
+    }
+
+    .next, .back{
+        padding: 10px;
+        width: 35px;
+    }
+
+    .testimonials ul li{
+        padding: 10px;
+    }
+    .slide{
+        padding: 10px;
+    }
+    .slide img{
+        width: 50px;
+        height: 50px;
+    
+    }
+  
+    
+
+}
+
+/* ------- media query ------ */
+
+@media (max-width: 600px){
+
+    
+
+    .user-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+        margin-bottom: 10px;
+        font-size: 12px;
+        height: 60%;
+    }
+
+    .user-info h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size:12px ;
+        
+    }
+    .arrow{
+       width: 25px;
+        height: 25px;
+       
+    }
+
+    .slider ul li{
+        list-style: none;
+        width: 80%;
+        padding: 5px;
+    }
+
+    
+    .testimonials{
+        margin: 80px auto;
+        padding: 0 20px;
+        
+    
+    }
+    
+    .arrow.back{
+        right: auto;
+        left: 0px;
+    }
+
+    .user-info span{
+      text-align: center;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .container{
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+
+}
