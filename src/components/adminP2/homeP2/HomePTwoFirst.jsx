@@ -1,5 +1,5 @@
 import PrimaryTwoSidebar from "../../primaryTwoSideBar/PrimaryTwoSidebar";
-import "./homepTwoFirst.css";
+import "./homePTwoFirst.css";
 
 
 const HomePTwoFirst = () => {
