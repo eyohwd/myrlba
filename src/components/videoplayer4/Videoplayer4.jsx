@@ -1,4 +1,4 @@
-import './videoPlayer4.css';
+import './videoplayer4.css';
 import video4 from '../../assets/crechevidz.mp4';
 import { useRef } from 'react';
 
