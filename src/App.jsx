@@ -26,7 +26,7 @@ import { DarkModeContext } from "./context/lightModeContext";
 import RegisterP from "./pages/RegisterP";
 import LoginP from "./pages/LoginP";
 import AddStudent from "./components/admin/addStudent/AddStudent";
-import AdminHome from "./components/admin/home/AdminHome";
+import AdminHome from "./components/admin/Home/AdminHome";
 import NotFound from "./components/notFound/NotFound";
 import StudentPage from "./components/studentPage/StudentPage";
 import AdminOnlyRoute, { Teacher02OnlyRoute, TeacherOnlyRoute, TeacherP1OnlyRoute } from "./components/adminOnlyRoute/AdminOnlyRoute";
