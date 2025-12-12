@@ -1,5 +1,5 @@
 import React from 'react';
-import Elementary from '../components/elementary/elementary';
+import Elementary from '../components/elementary/Elementary';
 
 const ElementaryP = ({setPlayState}) => {
   return (
